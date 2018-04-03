@@ -13,7 +13,7 @@ module.exports = {
 
     },
     resolve:{
-        extensions:['.js','.jsx','json','.css'],
+        extensions:['.js','.jsx','.json','.css','.less','sass','scss'],
     },
     performance: {
         hints: false
@@ -28,9 +28,8 @@ module.exports = {
             {
                 test: /\.css$/,
                 use:[MiniCssExtractPlugin.loader,'css-loader'],
-
             },
-             {
+            {
                 test: /\.(scss|sass)$/,
                 use: [
                     MiniCssExtractPlugin.loader,
@@ -55,7 +54,7 @@ module.exports = {
                 use:"raw-loader",
             },
             {
-                test:/\.(svg|png)$/,
+                test:/\.(svg|png|ico)$/,
                 use:'file-loader',
             }
         ]

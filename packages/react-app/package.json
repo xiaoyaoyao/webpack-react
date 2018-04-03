@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.4.0",
+    "node-sass": "^4.8.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
     "remove": "^0.1.5",
-     "node-sass": "^4.8.3"
+    "url-loader": "^1.0.1"
   },
   "scripts": {
     "start": "webpack-dev-server  --hot --inline --color --hot --config ./webpack/webpack.dev.config.js",
@@ -17,8 +19,10 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
+    "babel-plugin-import": "^1.6.7",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
@@ -28,7 +32,7 @@
     "mini-css-extract-plugin": "^0.2.0",
     "open-browser-webpack-plugin": "^0.0.5",
     "raw-loader": "^0.5.1",
-     "sass-loader": "^6.0.7",
+    "sass-loader": "^6.0.7",
     "webpack": "^4.2.0",
     "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.1",

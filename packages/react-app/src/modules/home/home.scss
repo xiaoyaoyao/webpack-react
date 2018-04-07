@@ -1,0 +1,32 @@
+$darkColor: #333;
+$lightColor: #666;
+ul,li{
+  padding:0;
+  margin:0;
+  list-style:none
+}
+.homeContainer{
+  position: relative;
+  height:100%;
+}
+.leftSider{
+  width: 200px;
+  float: left;
+  height: 100%;
+  background: rgba(0,0,0,0.1);
+  overflow-y: auto;
+  box-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+.leftSiderItem{
+  padding-left: 10px;
+  line-height: 40px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  a{
+    padding-left: 10px;
+    color:$darkColor!important;
+  }
+}
+.homeContent{
+
+}
